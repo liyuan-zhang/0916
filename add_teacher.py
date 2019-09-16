@@ -38,5 +38,3 @@ add_teacher_data = {
 }
 
 result = requests.post(url=add_teacher_url, data=add_teacher_data, cookies=phpid)
-
-print(result.text)
